@@ -46,18 +46,12 @@ img{
    color: #ff3f3a;
 }
 
-.main {}
-
-.main__container {}
-
 .main__contacts {
    display: flex;
    padding: 240px 0 180px;
    align-items: center;
    justify-content: space-between;
 }
-
-.contacts {}
 
 .contacts__image {
    flex: 0 1 35.37%;
@@ -74,9 +68,6 @@ img{
 
 .contacts__title-block:not(:last-child) {
    margin-bottom: 40px;
-}
-
-.contacts__form {
 }
 
 .form {
@@ -101,9 +92,6 @@ img{
    height: 162px;
 }
 
-.form__text {
-}
-
 .form textarea{
    /* width: 705px; */
    height: 162px;
@@ -116,7 +104,7 @@ img{
    border-radius: 4px;
    padding: 13px 16px;
    background-color: var(--clr-input-bg);
-   color: var(--clr-text);
+   color: var(--clr-text-input);
 }
 
 .form__input::placeholder{
@@ -126,6 +114,7 @@ img{
 .form__input:focus {
    /* outline: 1px solid #ff3f3a; */
    outline: 1px solid var(--clr-border);
+   border: 1px solid var(--clr-border);
 }
 
 .form__action {
@@ -158,10 +147,6 @@ img{
    /* transform: translateY(50%); */
 }
 
-.agree {}
-
-
-
 .form__text.checkbox{
    cursor: pointer;
    display: inline-flex;
@@ -183,10 +168,6 @@ img{
    align-self: center;
 }
 
-.checkbox {}
-
-.form__input {}
-
 label{
    cursor: pointer;
 }
@@ -200,8 +181,6 @@ label{
    flex: 0 1 340px;
    /* width: 100%; */
 }
-
-.button {}
 
 /* .form__line.agree {
    flex-direction: row-reverse;

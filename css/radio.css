@@ -9,9 +9,7 @@
    --clr-button-text: hsl(0, 0%, 100%);
    --clr-checkbox: hsl(2, 100%, 61%);
    --font-size: 1rem;
-}
-
-.color{
+   --clr-text-input: hsl(228, 10%, 29%);
 }
 
 .color input,
@@ -98,6 +96,7 @@
    --clr-input-bg: hsl(51, 100%, 80%);
    --clr-button-text: hsl(51, 100%, 50%);
    --clr-checkbox: hsl(212, 100%, 36%);
+   --clr-text-input: hsl(212, 100%, 50%);
 }
 
 :root:has(#black:checked) {
@@ -118,16 +117,13 @@
    --clr-border: hsl(0, 100%, 60%);
    --clr-input-bg: hsl(0, 100%, 95%);
    /* --clr-button-text: hsl(51, 100%, 50%); */
+   --clr-text-input: hsl(0, 100%, 60%);
 }
 
 :root:has(#blue:checked) .logo img:last-child,
 :root:has(#black:checked) .logo img:last-child
 {
    opacity: 1;
-}
-
-.font-size {
-   
 }
 
 .font-size .fieldset {
