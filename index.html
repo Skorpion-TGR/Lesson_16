@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson_16</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <a href="" class="header__logo logo">
+               <img src="img/logo/logo.svg" alt="logo">
+               <img src="img/logo/logo_light.svg" alt="logo">
+            </a>
+            <nav class="header__menu navbar">
+               <ul class="navbar__menu">
+                  <li class="navbar__item">
+                     <a href="" class="navbar__link">
+                        About Us
+                     </a>
+                  </li>
+                  <li class="navbar__item">
+                     <a href="" class="navbar__link">
+                        Courses
+                     </a>
+                  </li>
+                  <li class="navbar__item">
+                     <a href="" class="navbar__link">
+                        Events
+                     </a>
+                  </li>
+                  <li class="navbar__item">
+                     <a href="" class="navbar__link">
+                        Blog
+                     </a>
+                  </li>
+                  <li class="navbar__item">
+                     <a href="" class="navbar__link">
+                        Contacts
+                     </a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="header__action">
+               <a href="" class="button">Get consultation</a>
+               <form class="color" action="">
+                  <div class="fieldset">
+                     <span>Color <br> Thems</span>
+                     <label class="hidden" for="light">White/Black</label>
+                     <input type="radio" name="theme" id="light" checked>
+                     <label class="hidden" for="black">Black/White</label>
+                     <input type="radio" name="theme" id="black">
+                     <label class="hidden" for="blue">Black/Blue</label>
+                     <input type="radio" name="theme" id="blue">
+                     <label class="hidden" for="yellow">Yellow/Blue</label>
+                     <input type="radio" name="theme" id="yellow">
+                  </div>
+               </form>
+               <form class="font-size" action="">
+                  <div class="fieldset">
+                     <span>Font <br> Size</span>
+                     <label class="font" for="eight">8px</label>
+                     <input type="radio" name="theme" id="eight">
+                     <label class="font" for="six">16px</label>
+                     <input type="radio" name="theme" id="six" checked>
+                     <label class="font" for="thirty">32px</label>
+                     <input type="radio" name="theme" id="thirty">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <div class="main__contacts contacts">
+               <div class="contacts__image">
+                  <img src="img/contacts/illustration.svg" alt="contacts__image">
+               </div>
+               <div class="contacts__content">
+                  <div class="contacts__title-block title-block">
+                     <h6 class="title-block__subtitle">Any questions?</h6>
+                     <h3 class="title-block__title">Drop us a line</h3>
+                  </div>
+                  <form action="#" class="contacts__form form">
+                     <div class="form__line">
+                        <label for="first-name" class="form__text">First Name*</label>
+                        <input id="first-name" name="first-name" placeholder="Your first name" required type="text" class="form__input">
+                     </div>
+                     <div class="form__line">
+                        <label for="last-name" class="form__text">Last Name*</label>
+                        <input id="last-name" name="last-name" placeholder="Your last name" required type="text" class="form__input">
+                     </div>
+                     <div class="form__line">
+                        <label for="email" class="form__text">Email*</label>
+                        <input id="email" name="email" placeholder="Your working email" required type="email" class="form__input">
+                     </div>
+                     <div class="form__line">
+                        <label for="phone" class="form__text">Phone</label>
+                        <input id="phone" name="phone" placeholder="Your phone number" type="tel" class="form__input">
+                     </div>
+                     <div class="form__line textarea">
+                        <label for="message" class="form__text">Message*</label>
+                        <textarea name="message" id="message" placeholder="Your message" class="form__input" required></textarea>
+                     </div>
+                     <div class="form__action">
+                        <div class="form__line agree">
+                           <input id="agree" name="agree" required type="checkbox"class="form__input">
+                           <label for="agree" class="form__text checkbox">
+                              <span>I agree to receive communications from Createx Online School</span>
+                           </label>
+                        </div>
+                        <button class="form__button button" type="submit">Send message</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+</body>
+</html>
